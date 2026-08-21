@@ -1,0 +1,169 @@
+.topbar {
+  display: flex ;
+  flex-direction: row ;
+  align-items: center;
+  gap: 60px;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.topbar nav {
+  display: flex ;
+  flex-direction: row ;
+  gap: 40px;
+}
+
+.topbar nav a {
+  text-decoration: none;
+  color: blue;
+  font-size: 20px;
+}
+
+.topbar nav a:hover {
+  color:red;
+  transform: translateY(-3px);
+}
+
+.logo {
+  width: 140px;
+}
+
+.banner {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.yt {
+  margin-left: 30px;
+}
+
+.fb {
+  margin-left: 45px;
+}
+
+footer {
+  margin-top: 15px;
+}
+
+
+.featured {
+  width: 90%;
+  margin: 90px auto 40px;
+}
+
+.featured h2 {
+  font-size: 21px;
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+
+.boxes {
+  display: flex;
+  gap: 35px;
+}
+
+.boxes img {
+  width: calc(50% - 18px);
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 700px) {
+  .boxes {
+    flex-direction: column;
+  }
+
+  .boxes img {
+    width: 100%;
+  }
+}
+
+.date {
+  width: 90%;
+  margin: 45px auto 15px;
+}
+
+.number {
+  width: 48px;
+  height: 48px;
+  background-color: darkblue;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date span {
+  display: block;
+  color: blue;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.p {
+  width: 90%;
+  margin: 50px auto 20px;
+  font-size: 20px;
+}
+
+body > div {
+  width: 90%;
+  margin: auto;
+}
+
+.coding {
+  width: 250px;
+  height: 190px;
+  object-fit: cover;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: justify;
+  margin-top: 0;
+}
+
+body > div::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.contact-box {
+  display: block;
+  width: 90%;
+  margin: 80px auto;
+}
+
+.contact-title {
+  color: #5d8ca7;
+  font-size: 23px;
+  margin-bottom: 25px;
+}
+
+.contact {
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.label {
+  width: 130px;
+  color: #aaaaaa;
+}
+
+.info {
+  color: #555555;
+  font-weight: bold;
+}
+
+.map {
+  margin-left: 500px;
+margin-top: -150px;
+}
